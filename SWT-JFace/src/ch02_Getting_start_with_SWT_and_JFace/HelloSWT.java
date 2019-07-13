@@ -23,6 +23,7 @@ public class HelloSWT {
 			}
 		}
 		display.dispose();
+		
 	}
 
 }

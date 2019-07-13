@@ -26,6 +26,7 @@ public class HelloJFace extends ApplicationWindow {
 		awindow.setBlockOnOpen(true);
 		awindow.open();
 		Display.getCurrent().dispose();
+		
 	}
 
 }
