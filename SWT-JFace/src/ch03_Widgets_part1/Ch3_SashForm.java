@@ -7,8 +7,8 @@ import org.eclipse.swt.widgets.Composite;
 
 public class Ch3_SashForm extends Composite {
 
-	public Ch3_SashForm(Composite parent) {
-		super(parent, SWT.NONE);
+	public Ch3_SashForm(Composite parent, int style) {
+		super(parent, style);
 		
 		SashForm sf = new SashForm(this, SWT.VERTICAL);
 		sf.setSize(120, 80);

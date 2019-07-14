@@ -1,6 +1,7 @@
 package ch03_Widgets_part1;
 
 import org.eclipse.jface.window.ApplicationWindow;
+import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Display;
@@ -14,7 +15,7 @@ public class SashFromViewer extends ApplicationWindow {
 
 	@Override
 	protected Control createContents(Composite parent) {
-		Ch3_SashForm sashform = new Ch3_SashForm(parent);
+		Ch3_SashForm sashform = new Ch3_SashForm(parent, SWT.NONE);
 
 		return parent;
 	}
