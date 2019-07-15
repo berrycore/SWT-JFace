@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="lib/org.eclipse.text_3.8.100.v20190306-1823.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.ui.forms_3.7.500.v20190216-1545.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.ui.workbench_3.113.0.v20190219-1432.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.10.400.v20190516-1504.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
