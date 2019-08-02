@@ -1,3 +1,4 @@
+
 package ch09_TablesAndMenus;
 
 import org.eclipse.jface.window.ApplicationWindow;
@@ -26,6 +27,8 @@ public class WidgetWindow extends ApplicationWindow {
 		chap3.setText("Chapter 3");
 		//chap3.setControl(new Ch3_Composite(tf, SWT.NONE));
 		chap3.setControl(new Ch9TableEditorComposite(tf));
+		
+		
 		
 		getShell().setText("Widget Window");
 		parent.setSize(new Point(400, 250));
